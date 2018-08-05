@@ -87,7 +87,8 @@ def cycle():
                 break
         random_id = randint(1,len(namesToRGB))
 btnhead.when_pressed = cycle
-    
+
+#clock code from https://github.com/pimoroni/scroll-phat-hd/blob/master/examples/clock.py
 while True:
     scrollphathd.clear()
 
